@@ -1,0 +1,69 @@
+.all-list-container {
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    top: 12px;
+    width: 100%;
+}
+
+.footer {
+    margin-top: 64px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.all-list {
+    padding: 0 64px;
+    margin: 64px 0;
+}
+
+.store-body {
+    display: flex;
+    margin: 16px 28px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 20px 20px;
+}
+
+.store-body:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.store-img {
+    background-size: cover;
+    overflow: hidden;
+    width: 240px;
+    height: 200px;
+}
+
+.store-content {
+    margin-left: 32px;
+}
+
+.store-name {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.store-info {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 0;
+}
+
+.store-username {
+    font-weight: 600;
+}
+
+.search-result {
+    margin: 12px 94px;
+    font-size: 16px;
+    font-weight: 600;
+}
+

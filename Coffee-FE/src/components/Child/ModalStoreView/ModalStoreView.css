@@ -1,0 +1,27 @@
+.custom-modal {
+    border-radius: 10px;
+  }
+  
+.storev-name {
+    font-weight: 600;
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 36px;
+}
+
+.storev-img {
+    height: 380px;
+    width: 620px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.info {
+    font-weight: 600;
+    margin-left: 64px;
+}
+
+.store-info {
+    margin-top: 12px;
+}

@@ -1,0 +1,50 @@
+:root {
+
+    --black: #000000;
+    --white: #ffffff;
+    --main-color: #381b07;
+    --tomato: #8f3900;
+    --second-color: #7c3c10;
+    --red-color: #ff0000;
+    --recommand-color: #744938;
+}
+
+.book-cf-image {
+    width: 344px;
+    height: 216px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.book-cf-image:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.book-avatar-image {
+    width: 344px;
+    height: 216px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    border-radius: 12px;
+}
+
+.book-avatar-image img {
+    width: 100%;
+}
+
+.book-title-image {
+    display: flex;
+    width: 100%;
+    background-color: var(--white);
+    height: 52px;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 12px 12px;
+    font-weight: 600;
+    font-size: 24px;
+}

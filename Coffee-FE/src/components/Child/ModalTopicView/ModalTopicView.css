@@ -1,0 +1,22 @@
+.news-backgroundImg{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.news-title-md {
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.news-content-md {
+    font-size: 16px;
+    margin: 0 12px;
+    margin-top: 20px;
+}
+
+.footer {
+    position: relative;
+}

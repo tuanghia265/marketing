@@ -1,0 +1,15 @@
+Tạo Topic
+Tạo Role
+Cập nhật type cho Store
+
+
+--> Role 
+    roleType value
+    R1       Admin
+    R2       Host
+    R3       Guest
+
+    Insert into cho bảng role giống như trên.
+--> Topic
+    title                       subContent              content             author
+Ex: Người lỏ nhất hành tinh     NDDL là người lỏ...     ND chính            Tác giả

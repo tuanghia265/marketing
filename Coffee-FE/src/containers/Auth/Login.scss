@@ -1,0 +1,76 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --main-color: #381b07;
+    --tomato: #fd6500;
+    --second-color: #7c3c10;
+    --red-color: #ff0000;
+    --third-color: #1b0d03;
+}
+
+.login-background {
+    height: 100vh;
+}
+
+.login-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 12px 24px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+
+    .login-content {
+        padding: 10px;
+
+        .text-login {
+            text-align: center;
+            font-weight: 600;
+            font-size: 32px;
+            padding-top: 10px;
+            color: var(--main-color);
+        }
+
+        label {
+            color: var(--third-color);
+            font-weight: 600;
+        }
+
+        .login-input {
+            margin: 7px 0;
+            .custom-input-password{
+                position: relative;
+            }
+            i{
+                position: absolute;
+                right: 5px;
+                top: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .btn-login {
+            width: 100%;
+            margin: 10px 0;
+            height: 30px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+            background: var(--main-color);
+            color: white;
+        }
+
+        .forgot-password{
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        
+    }
+
+}

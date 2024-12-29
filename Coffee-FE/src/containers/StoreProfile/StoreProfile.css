@@ -1,0 +1,74 @@
+.storepf-title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--main-color);
+    margin-top: 28px;
+    position: relative;
+}
+
+.storeInfo-text {
+    position: relative;
+    display: flex;
+    margin: 24px 93px;
+    justify-content: space-between;
+}
+
+.storeInfo-avt {
+    flex: 1;
+    margin-top: -24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.storeAvt {
+    height: 360px;
+    background-size: cover;
+}
+
+.storeInfo-input {
+
+    flex: 2;
+}
+
+label {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 0 0 48px;
+}
+
+input {
+    height: 40px;
+    padding: 6px 12px;
+}
+
+.storePf-btn {
+    margin-top: 40px;
+    margin-left: 48px;
+}
+
+.storePf-btn button {
+    background-color: var(--main-color);
+    height: 44px;
+    width:  180px;;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 600;
+    color: white;
+}
+
+button:active {
+    background-color: white;
+    color: var(--main-color);
+}
+
+.footer {
+    bottom: 0;
+}

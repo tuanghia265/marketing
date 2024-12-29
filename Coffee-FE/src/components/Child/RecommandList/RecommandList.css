@@ -1,0 +1,42 @@
+.recommand-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommand-body {
+    width: 268px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.recommand-img {
+    width: 268px;
+    height: 180px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    border-radius: 12px;
+    background-size: cover;
+}
+
+.recommand-name {
+    display: flex;
+    width: 268px;
+    background-color: var(--recommand-color);
+    height: 36px;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 12px 12px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.recommand-body:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,92 @@
+#stores {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 600;
+  }
+  
+  #stores td, #stores th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #stores tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #stores tr:hover {background-color: #ddd;}
+  
+  #stores th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .btn-update {
+    border: 0;
+    background-color: transparent !important;
+    color: green !important;
+    width: 60px;
+    font-size: 20px;
+  }
+.btn-update :active {
+    color: var(--main-color) !important;
+}
+
+.btn-delete {
+    border: 0;
+    background-color: transparent !important;
+    color: red !important;
+    width: 60px;
+    font-size: 20px;
+}
+
+.btn-delete :active {
+    color: var(--main-color) !important;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  background-color: #04AA6D !important;
+}
+
+.btn-primary:active {
+  background-color: var(--main-color) !important;
+}
+
+.modal-store-container {
+  .inpurt-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  input {
+    border-radius: 3px;
+    height: 32px;
+    border: 1px solid rgb(221, 221, 221);
+    outline: none;
+    padding: 0 12px;
+  }
+  .btn {
+    padding: 0 12px;
+  }
+  .btn-add-done {
+    margin-bottom: 20px;
+  }
+
+  .btn-edit-done {
+    margin-bottom: 20px;
+  }
+}
+
+#image-upload {
+  border: 0;
+}
+
+.image-preview {
+  margin: 12px 0;
+  width: 160px;
+  height: 120px;
+  overflow: hidden;
+  background-size: cover;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
